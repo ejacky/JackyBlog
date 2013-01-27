@@ -15,7 +15,7 @@ class dbClass
         
         static public function connect2Db()
         {
-                $con = mysql_connect("103.246.246.81", "jianfeideorg", "mmjUgAVZVk");
+                $con = mysql_connect("127.0.0.1", "jianfeideorg", "");
                 mysql_select_db("jianfeideorg", $con);
                 return $con;
         }
