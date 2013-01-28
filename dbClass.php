@@ -2,10 +2,6 @@
 class dbClass
 {
         private $con;
-//        function __construct($host, $name, $password) 
-//        {
-//                $this->con = mysql_connect($host, $name, $password);
-//        }
 
         public function insertSth($tableName, $contentArray) 
         {
